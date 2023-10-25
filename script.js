@@ -85,14 +85,6 @@ for (i = 0; i < len; i++) {
 
 
 
-
-// var b = getElementByIdqsdjf
-// b.addEventListener("click", function(){
-//     b.style.display= "block"
-// })
-
-
-
 var b = document.getElementById("burgerButton");
         var menu = document.getElementById("burgerMenu");
 
