@@ -82,15 +82,24 @@ for (i = 0; i < len; i++) {
     });
 }
 
-// nav bar
-document.addEventListener("DOMContentLoaded", function () {
-    const menuToggle = document.getElementById("menuToggle");
-    const navbar = document.querySelector(".navbar");
-    const menuIcon = document.querySelector(".fa-bars");
 
-    menuToggle.addEventListener("click", function () {
-        navbar.classList.toggle("active");
-        menuIcon.classList.toggle("active");
-    });
-});
 
+
+
+// var b = getElementByIdqsdjf
+// b.addEventListener("click", function(){
+//     b.style.display= "block"
+// })
+
+
+
+var b = document.getElementById("burgerButton");
+        var menu = document.getElementById("burgerMenu");
+
+        b.addEventListener("click", function(){
+            if (menu.style.display === "block") {
+                menu.style.display = "none";
+            } else {
+                menu.style.display = "block";
+            }
+        });

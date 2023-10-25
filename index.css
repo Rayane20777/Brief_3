@@ -136,6 +136,19 @@ a {
     margin-left: 20px;
 }
 
+#burgerMenu {
+    display: none;
+
+}
+
+.navBarr.shsow {
+    display: none;
+}
+
+.btn {
+    display: none;
+}
+
 
 
 
@@ -143,30 +156,45 @@ a {
 
 @media (max-width:400px) {
 
-    .left{
+    .left {
         display: none;
     }
 
-    .right{
+    .right {
         display: none;
     }
 
-    .middle{
+    .middle {
         padding-right: unset;
     }
 
-    .navbar{
+    .navbar {
         justify-content: center;
     }
-    .container{
+
+    .container {
         flex-direction: column;
     }
-    .box2{
+
+    .box2 {
         margin-top: 175px;
     }
-    .cent{
+
+    .cent {
         flex-direction: column;
         align-items: center;
     }
-    
+
+    #burgerMenu {
+        display: block;
+    }
+
+    .btn {
+        display: block;
+    }
+
+    .navBarr {
+        display: none;
+    }
+
 }

@@ -70,7 +70,6 @@ a {
 
 .container {
     margin-top: 50px;
-    margin-left: 10px;
     width: 100%;
     display: flex;
 }
@@ -195,7 +194,7 @@ h3 {
 
 .our-vinyls hr {
     background-color: #E0B4A6;
-    width: 100%;
+    width: 99.5%;
     height: 2px;
     border: none;
 }
@@ -252,6 +251,22 @@ h3 {
     text-decoration: none;
     margin-left: 20px;
 }
+
+#burgerMenu {
+    display: none;
+
+}
+
+.navBarr.shsow {
+    display: none;
+}
+
+.btn {
+    display: none;
+}
+
+
+
 /* responsive */
 @media (max-width:400px) {
 
@@ -317,4 +332,16 @@ h3 {
     .our-best-seller{
         font-size: 28px;
     }
+    #burgerMenu {
+        display: block;
+    }
+
+    .btn {
+        display: block;
+    }
+
+    .navBarr {
+        display: none;
+    }
+
   }

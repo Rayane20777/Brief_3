@@ -217,6 +217,22 @@ button{
     text-decoration: none;
     margin-left: 20px;
 }
+
+
+#burgerMenu {
+    display: none;
+
+}
+
+.navBarr.shsow {
+    display: none;
+}
+
+.btn {
+    display: none;
+}
+
+
 /* responsive */
 @media (max-width:400px) {
 
@@ -261,4 +277,16 @@ button{
         width: 80%;
         padding-left: 0px;
     }
+    #burgerMenu {
+        display: block;
+    }
+
+    .btn {
+        display: block;
+    }
+
+    .navBarr {
+        display: none;
+    }
+
   }
