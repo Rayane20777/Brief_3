@@ -83,16 +83,6 @@ a {
   width: 24rem;
 }
 
-.containerFluid h2::after {
-  position: absolute;
-  content: "";
-  bottom: 0;
-  right: 12px;
-  width: 67px;
-  height: 2px;
-  background-color: #E0B4A6;
-}
-
 .accordion {
   width: 100%;
   padding: 5px;
@@ -270,15 +260,24 @@ a {
   .navbar{
       justify-content: center;
   }
+  .cent{
+    flex-direction: column;
+    align-items: center;
+}
   .container{
       flex-direction: column;
   }
-  .box2{
-      margin-top: 175px;
+  .containerFluid h2{
+  font-size: 14px;
+  width: 16rem;
   }
-  .cent{
-      flex-direction: column;
-      align-items: center;
+  .accordion h5{
+    font-size: 12px;
   }
-  
+  .panel p{
+    font-size: 8px;
+  }
+  .contact h2{
+    font-size: 20px;
+  }
 }

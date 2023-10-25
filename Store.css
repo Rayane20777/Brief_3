@@ -67,8 +67,10 @@ a {
 }
 
 /* Our Vinyls */
+
 .container {
     margin-top: 50px;
+    margin-left: 10px;
     width: 100%;
     display: flex;
 }
@@ -250,3 +252,69 @@ h3 {
     text-decoration: none;
     margin-left: 20px;
 }
+/* responsive */
+@media (max-width:400px) {
+
+    .left{
+        display: none;
+    }
+  
+    .right{
+        display: none;
+    }
+  
+    .middle{
+        padding-right: unset;
+    }
+  
+    .navbar{
+        justify-content: center;
+    }
+    .cent{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer .container{
+        flex-direction: column;
+    }
+    label{
+        font-size: 10px;
+    }
+    input{
+        transform: scale(1);
+        margin: 2px;
+    }
+    .filter h2{
+        font-size: 16px;
+        margin-left: 8px;
+    }
+    .second-cards-container{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .card {
+        width: 80%;
+    }
+    .card img{
+        width: 175px;
+        height: 175px;
+    }
+    .card-3{
+        width: 80%;
+        margin-top: 0px;
+    }
+    .collection-2{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .card-2{
+        width: 86%;
+    }
+    .container{
+        margin-left: 0px;
+    }
+    .our-best-seller{
+        font-size: 28px;
+    }
+  }
