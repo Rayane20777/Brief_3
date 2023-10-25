@@ -136,6 +136,9 @@ a {
     margin-left: 20px;
 }
 
+.btn {
+    display: none !important;
+}
 
 #burgerMenu {
     display: none;
@@ -225,7 +228,7 @@ a {
     }
 
     .btn {
-        display: block;
+        display: block !important;
     }
 
 

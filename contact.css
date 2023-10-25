@@ -215,7 +215,7 @@ a {
   border: 1px solid #E0B4A6;
   margin-bottom: 10px;
   background-color: #2D231F;
-  color: #fff;
+  color: #E0B4A6;
 }
 .contact textarea {
   width: 80%;
@@ -227,13 +227,13 @@ a {
 }
 #message{
   background-color: #2D231F; 
-  color: #fff;
+  color: #E0B4A6;
 }
 .contact button {
   background-color: #D35D38;
   border: 1PX solid #E0B4A6;
   border-radius: 5px;
-  color: #fff;
+  color: #E0B4A6;
   cursor: pointer;
   padding: 10px 20px;
 }
@@ -248,7 +248,9 @@ a {
 
 
 
-
+.btn {
+  display: none !important;
+}
 
 #burgerMenu {
   display: none;
@@ -343,7 +345,7 @@ a {
 }
 
 .btn {
-    display: block;
+    display: block !important;
 }
 
 }

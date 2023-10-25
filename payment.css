@@ -173,7 +173,9 @@ a {
     border: 1px solid #876D65;
     margin-bottom: 10px;
 }
-
+input{
+    color: #E0B4A6;
+}
 .payment button {
     width: 20%;
     padding: 10px;
@@ -203,7 +205,9 @@ button{
     align-items: center;
     height: 100px;
     background-color: #232000;
-    margin-bottom: 0px;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
 }
 
 .cent {
@@ -229,7 +233,7 @@ button{
 }
 
 .btn {
-    display: none;
+    display: none !important;
 }
 
 
@@ -332,7 +336,7 @@ button{
     }
 
     .btn {
-        display: block;
+        display: block !important;
     }
 
   }

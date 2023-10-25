@@ -253,6 +253,10 @@ h3 {
 }
 
 
+.btn {
+    display: none !important;
+}
+
 #burgerMenu {
     display: none;
   
@@ -388,7 +392,7 @@ h3 {
     }
 
     .btn {
-        display: block;
+        display: block !important;
     }
 
 }
