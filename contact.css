@@ -1,0 +1,189 @@
+/* navbar */
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Muli:wght@400;500&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #2D231F;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar {
+  background-color: #232000;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.middle {
+  display: flex;
+  align-items: center;
+  padding-right: 25px;
+
+}
+
+.left {
+  display: flex;
+  margin-left: 100px;
+}
+
+.right {
+  display: flex;
+  margin-right: 100px;
+}
+
+.item {
+  font-family: 'Rowdies', sans-serif;
+  padding: 25px;
+  margin: 5px;
+  color: #E0B4A6;
+}
+
+.item a {
+  color: #E0B4A6;
+}
+
+.item-1 {
+  font-family: 'Rowdies', sans-serif;
+  padding: 25px;
+  margin: 5px;
+  color: #D35D38;
+}
+
+.item-1 a {
+
+  color: #D35D38;
+}
+
+.img-logo img {
+  height: 30px;
+  width: 100%;
+}
+
+/* FAQ */
+
+
+
+.containerFluid {
+  width: 40%;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.containerFluid h2 {
+  color: #E0B4A6;
+  position: relative;
+  width: 24rem;
+}
+
+.containerFluid h2::after {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  right: 12px;
+  width: 67px;
+  height: 2px;
+  background-color: #E0B4A6;
+}
+
+.accordion {
+  width: 100%;
+  padding: 5px;
+  border: 2px solid #E0B4A6;
+  cursor: pointer;
+  border-radius: 50px;
+  display: flex;
+  margin: 10px 0;
+  align-items: center;
+}
+
+.accordion .icon {
+  margin: 0 10px 0 0;
+  width: 30px;
+  height: 30px;
+  background: url(https://raw.githubusercontent.com/Tusar78/responsive-accordion/main/images/toggle-bg.png)
+    no-repeat 8px 7px #D35D38;
+  border-radius: 50%;
+  float: left;
+  transition: all 0.5s ease-in;
+}
+
+.accordion h5 {
+  font-size: 22px;
+  margin: 0;
+  padding: 3px 0 0 0;
+  font-weight: normal;
+  color: #D35D38;
+}
+
+
+.active .icon {
+  background: url(https://raw.githubusercontent.com/Tusar78/responsive-accordion/main/images/toggle-bg.png)
+    no-repeat 8px -25px #fff;
+}
+
+.panel {
+  padding: 0 15px;
+  border-left: 1px solid #D35D38;
+  margin-left: 25px;
+  font-size: 14px;
+  text-align: justify;
+  overflow: hidden;
+  max-height: 0;
+  transition: all 0.3s ease-in;
+}
+.panel p{
+  color: #E0B4A6;
+}
+
+/*footer*/
+.decoration {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+  background-color: #232000;
+}
+
+.cent {
+  display: flex;
+
+
+}
+
+.cent a {
+  color: #E0B4A6;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+/*footer*/
+.decoration {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+  background-color: #232000;
+  margin-bottom: 0px;
+}
+
+.cent {
+  display: flex;
+
+
+}
+
+.cent a {
+  color: #E0B4A6;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
