@@ -233,6 +233,53 @@ button{
 }
 
 
+#burgerMenu {
+    display: none;
+
+}
+
+#burgerMenu {
+    display: none;
+    background-color: #232000;
+    position: absolute;
+    top: 60px;
+    left: 0px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+}
+
+#burgerMenu a {
+    display: block;
+    padding: 10px;
+    color: #E0B4A6;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+#burgerMenu a:hover {
+    color: #D35D38;
+}
+
+
+#burgerButton {
+    margin-right: 10em;
+    display: none;
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: #E0B4A6;
+    cursor: pointer;
+    padding: 5px;
+}
+
+
+#burgerButton.btn {
+    display: block;
+}
+
+
 /* responsive */
 @media (max-width:400px) {
 
@@ -277,16 +324,15 @@ button{
         width: 80%;
         padding-left: 0px;
     }
+    .img-logo img{
+        height: 20px;
+    }
     #burgerMenu {
         display: block;
     }
 
     .btn {
         display: block;
-    }
-
-    .navBarr {
-        display: none;
     }
 
   }
