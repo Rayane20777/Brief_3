@@ -135,3 +135,38 @@ a {
     text-decoration: none;
     margin-left: 20px;
 }
+
+
+
+
+
+
+@media (max-width:400px) {
+
+    .left{
+        display: none;
+    }
+
+    .right{
+        display: none;
+    }
+
+    .middle{
+        padding-right: unset;
+    }
+
+    .navbar{
+        justify-content: center;
+    }
+    .container{
+        flex-direction: column;
+    }
+    .box2{
+        margin-top: 175px;
+    }
+    .cent{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
